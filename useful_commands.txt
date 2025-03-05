@@ -1,0 +1,14 @@
+1) Start OpenVPN Docker Container: 
+docker start openvpn
+
+2) top OpenVPN Docker Container (Safely):
+docker stop openvpn
+
+3) Restart OpenVPN Docker Container:
+docker restart openvpn
+
+4) Check OpenVPN Logs:
+docker logs openvpn --tail 50 -f
+
+5) Check If OpenVPN is Running:
+docker ps | grep openvpn
