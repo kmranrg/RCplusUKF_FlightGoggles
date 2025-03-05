@@ -1,2 +1,4 @@
 # RCplusUKF FlightGoggles
-simulating RCplusUKF algorithm on MIT FilghtGoggles virtual simulation environment
+Simulating RCplusUKF algorithm on MIT FilghtGoggles virtual simulation environment
+
+Sincere Credits to: MIT
