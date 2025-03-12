@@ -1,6 +1,6 @@
 state:
-    # sceneFilename: "Abandoned_Factory_Morning"
-    sceneFilename: "Stata_GroundFloor"
+    sceneFilename: "Abandoned_Factory_Morning"
+    #sceneFilename: "Stata_GroundFloor"
     camWidth: 640
     camHeight: 480
     camFOV: 70.0
