@@ -1,1 +1,0 @@
-/usr/bin/c++   -fPIC -g   CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o  -o ../../../bin/parse -Wl,-rpath,/root/pyFlightGoggles/build/lib.linux-x86_64-3.8 ../../../../lib.linux-x86_64-3.8/libyaml-cppd.so.0.6.3 

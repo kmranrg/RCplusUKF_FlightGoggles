@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -fPIC -g  -shared -Wl,-soname,car_dynamics_sim.cpython-38-x86_64-linux-gnu.so -o ../lib.linux-x86_64-3.8/car_dynamics_sim.cpython-38-x86_64-linux-gnu.so CMakeFiles/car_dynamics_sim.dir/libs/carDynamicsSim/pyCarDynamicsSim.cpp.o -Wl,-rpath,/root/pyFlightGoggles/build/lib.linux-x86_64-3.8 ../lib.linux-x86_64-3.8/libcarDynamicsSim.so 

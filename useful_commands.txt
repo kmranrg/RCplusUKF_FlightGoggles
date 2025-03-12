@@ -14,7 +14,10 @@ docker logs openvpn --tail 50 -f
 docker ps | grep openvpn
 
 6) Build Docker Container for py_flightgoggles:
-docker build -t py_flightgoggles .
+docker build -t pyfg .
 
 7) Run Docker Container for py_flightgoggles:
-docker run -p 8888:8888 --gpus all -it py_flightgoggles
+./run_docker.sh
+
+8) Pip setuptools version for flightgoggles:
+pip install setuptools==70.0.0
