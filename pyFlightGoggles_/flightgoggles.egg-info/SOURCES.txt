@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+flightgoggles/__init__.py
+flightgoggles/controller.py
+flightgoggles/env.py
+flightgoggles/filter.py
+flightgoggles/model.py
+flightgoggles/utils.py
+flightgoggles.egg-info/PKG-INFO
+flightgoggles.egg-info/SOURCES.txt
+flightgoggles.egg-info/dependency_links.txt
+flightgoggles.egg-info/top_level.txt
