@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -fPIC -g  -shared -Wl,-soname,libmulticopterDynamicsSim.so -o ../lib.linux-x86_64-cpython-38/libmulticopterDynamicsSim.so CMakeFiles/multicopterDynamicsSim.dir/libs/multicopterDynamicsSim/multicopterDynamicsSim.cpp.o -Wl,-rpath,/root/pyFlightGoggles/build/lib.linux-x86_64-cpython-38 ../lib.linux-x86_64-cpython-38/libinertialMeasurementSim.so 

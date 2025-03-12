@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -fPIC -g  -shared -Wl,-soname,libinertialMeasurementSim.so -o ../lib.linux-x86_64-cpython-38/libinertialMeasurementSim.so CMakeFiles/inertialMeasurementSim.dir/libs/multicopterDynamicsSim/inertialMeasurementSim.cpp.o 

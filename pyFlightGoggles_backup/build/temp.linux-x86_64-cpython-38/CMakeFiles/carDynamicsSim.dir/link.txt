@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -fPIC -g  -shared -Wl,-soname,libcarDynamicsSim.so -o ../lib.linux-x86_64-cpython-38/libcarDynamicsSim.so CMakeFiles/carDynamicsSim.dir/libs/carDynamicsSim/carDynamicsSim.cpp.o 

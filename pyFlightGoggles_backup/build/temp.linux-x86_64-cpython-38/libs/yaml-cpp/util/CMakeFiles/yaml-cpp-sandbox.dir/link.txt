@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC -g   CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.o  -o ../../../bin/sandbox -Wl,-rpath,/root/pyFlightGoggles/build/lib.linux-x86_64-cpython-38 ../../../../lib.linux-x86_64-cpython-38/libyaml-cppd.so.0.6.3 
