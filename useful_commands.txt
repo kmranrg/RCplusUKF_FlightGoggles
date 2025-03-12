@@ -12,3 +12,9 @@ docker logs openvpn --tail 50 -f
 
 5) Check If OpenVPN is Running:
 docker ps | grep openvpn
+
+6) Build Docker Container for py_flightgoggles:
+docker build -t py_flightgoggles .
+
+7) Run Docker Container for py_flightgoggles:
+docker run -p 8888:8888 --gpus all -it py_flightgoggles
