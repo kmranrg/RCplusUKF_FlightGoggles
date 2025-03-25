@@ -68,7 +68,7 @@ def main():
     # Initialize the RC+UKF framework
     framework = RC_UKF(
         n_inputs=3,                   # Rössler system has 3 states (x, y, z)
-        n_reservoir=500,              # Number of reservoir neurons
+        n_reservoir=100,              # Number of reservoir neurons
         process_noise=np.eye(3) * 1e-3,  # Process noise covariance (Q)
         measurement_noise=np.eye(3) * measurement_noise_std**2,  # Measurement noise covariance (R)
         ukf_params={'alpha': 0.1}     # UKF sigma point spread parameter
@@ -90,9 +90,9 @@ def main():
     
     # Run UKF filter over test data with noisy measurements
     predicted_states = []
-    for i in range(len(test_inputs)):
+    for i in range(len(test_outputs)):
         # Simulate noisy measurement of the current true state
-        measurement = test_inputs[i] + np.random.normal(0, measurement_noise_std, test_inputs[i].shape)  # Shape (3,)
+        measurement = test_outputs[i]
         x_est = framework.filter_step(measurement)  # UKF predict + update, shape (3,)
         predicted_states.append(x_est)
     

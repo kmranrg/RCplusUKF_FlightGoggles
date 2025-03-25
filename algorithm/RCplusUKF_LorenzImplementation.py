@@ -89,8 +89,8 @@ def main():
     
     # Run UKF filter over test data with full-state measurements
     predicted_states = []
-    for i in range(len(test_inputs)):
-        measurement = test_inputs[i] + np.random.normal(0, measurement_noise_std, test_inputs[i].shape)  # Noisy previous state as measurement, shape (3,)
+    for i in range(len(test_outputs)):
+        measurement = test_outputs[i] # Measurement noise has already been added in the measurement_model of RC_UKF class.
         x_est = framework.filter_step(measurement)  # UKF predict + update, shape (3,)
         predicted_states.append(x_est)
     

@@ -1,0 +1,65 @@
+LorenzPrediction_700:
+
+    ==== RC-Only RMSE ====
+    RC-Only   RMSE for X: 0.5829
+    RC-Only   RMSE for Y: 0.8642
+    RC-Only   RMSE for Z: 1.3483
+    Mean RMSE: 0.9318
+    ==== RCUKF RMSE ====
+    RCUKF    RMSE for X: 0.1628
+    RCUKF    RMSE for Y: 0.1657
+    RCUKF    RMSE for Z: 0.1270
+    Mean RMSE: 0.1518
+
+LorenzPrediction_10000:
+
+    ==== RC-Only RMSE ====
+    RC-Only   RMSE for X: 0.1569
+    RC-Only   RMSE for Y: 0.2346
+    RC-Only   RMSE for Z: 0.2460
+    Mean RMSE: 0.2125
+    ==== RCUKF RMSE ====
+    RCUKF    RMSE for X: 0.0370
+    RCUKF    RMSE for Y: 0.0384
+    RCUKF    RMSE for Z: 0.0504
+    Mean RMSE: 0.0419
+
+RosslerPrediction_700:
+
+    ==== RC-Only RMSE (Rössler) ====
+    RC-Only   RMSE for X: 0.3779
+    RC-Only   RMSE for Y: 0.4494
+    RC-Only   RMSE for Z: 0.0070
+    Mean RMSE: 0.2781
+    ==== RCUKF RMSE (Rössler) ====
+    RCUKF    RMSE for X: 0.1520
+    RCUKF    RMSE for Y: 0.2888
+    RCUKF    RMSE for Z: 0.0316
+    Mean RMSE: 0.1575
+
+RosslerPrediction_10000:
+
+    ==== RC-Only RMSE (Rössler) ====
+    RC-Only   RMSE for X: 0.1743
+    RC-Only   RMSE for Y: 0.0448
+    RC-Only   RMSE for Z: 0.0373
+    Mean RMSE: 0.0855
+    ==== RCUKF RMSE (Rössler) ====
+    RCUKF    RMSE for X: 0.0790
+    RCUKF    RMSE for Y: 0.0792
+    RCUKF    RMSE for Z: 0.0653
+    Mean RMSE: 0.0745
+
+MackeyGlassPrediction_700:
+
+    ==== RC-Only RMSE (Mackey-Glass) ====
+    RC-Only: 0.1176
+    ==== RCUKF RMSE (Mackey-Glass) ====
+    RCUKF: 0.0032
+
+MackeyGlassPrediction_10000:
+
+    ==== RC-Only RMSE (Mackey-Glass) ====
+    RC-Only: 0.0323
+    ==== RCUKF RMSE (Mackey-Glass) ====
+    RCUKF: 0.0014
